@@ -63,16 +63,5 @@ Luego abrir `index.html` en el navegador o usar una extensión como Live Server 
 - `recursos/`: imágenes y recursos gráficos del juego.
 
 ## 11. Autor
-Nombre: [Nombre del estudiante]
-Correo institucional: [correo@institucional.edu.bo]
-
----
-
-#### 🧪 Criterios de Evaluación
-| Criterio | Ponderación |
-| --- | --- |
-| Claridad y redacción | 20% |
-| Explicación de funcionalidades | 25% |
-| Descripción del uso y despliegue | 25% |
-| Inclusión de tecnologías y detalles | 20% |
-| Estructura general del README | 10% |
+Nombre: [Nathalie Brenda Ramirez Olivera]
+Correo institucional: [cbbe.nathaliebrenda.ramirez.ol@edu.bo]
