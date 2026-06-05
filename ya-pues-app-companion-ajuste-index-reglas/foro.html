@@ -1,0 +1,58 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="recursos/favicon.png">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/animations.css" rel="stylesheet">
+<link href="assets/css/responsive.css" rel="stylesheet"><title>Foro de jugadores | ¡Ya Pues!</title></head><body class="page-bg"><header class="site-header">
+  <div class="shell">
+    <nav class="navbar-yp" aria-label="Navegación principal">
+      <a class="brand" href="index.html"><img src="recursos/logo.png" alt="Logo Ya Pues"></a>
+      <button class="menu-toggle" data-menu-toggle type="button" aria-label="Abrir menú">Menú</button>
+      <div class="nav-links" data-menu>
+        <a class="nav-link-yp" href="index.html">Inicio</a>
+        <a class="nav-link-yp" href="como-se-juega.html">Cómo se juega</a>
+        <a class="nav-link-yp" href="simulador.html">Temporizador</a>
+        <a class="nav-link-yp" href="merchandising.html">Merchandising</a>
+        <a class="nav-link-yp" href="foro.html">Foro</a>
+      </div>
+      <div class="nav-actions">
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Cambiar modo claro u oscuro">Modo oscuro</button>
+        <a class="btn-yp btn-yellow btn-small d-none d-lg-inline-flex" href="simulador.html">Empezar a jugar</a>
+      </div>
+    </nav>
+  </div>
+</header><main><div class="word-marquee" aria-hidden="true"><div class="word-marquee__track"><span>Ya Pues</span><span>Juego físico</span><span>Debate</span><span>Familia</span><span>Amigos</span><span>Cochabamba</span><span>Ya Pues</span><span>Juego físico</span><span>Debate</span><span>Familia</span><span>Amigos</span><span>Cochabamba</span></div></div>
+<section class="page-hero"><div class="shell"><span class="breadcrumb-pill">Comunidad</span><h1 class="title-xl">Foro de jugadores</h1><p class="lead">Un espacio para comentar, sugerir nuevas cartas, añadir lugares, proponer comidas o contar cómo fue la partida.</p></div></section>
+<section class="section-tight"><div class="shell forum-layout">
+  <aside class="card-yp scroll-reveal"><img src="recursos/logo.png" alt="Ya Pues" style="width:210px;margin-bottom:12px"><h3>Publicar comentario</h3><label class="form-label">Nombre</label><input id="forumName" class="form-control mb-2" placeholder="Tu nombre"><label class="form-label">Personaje favorito</label><select id="forumCharacter" class="form-select mb-2"><option>Cholita</option><option>Carnavalito</option><option>Albañil</option><option>Chico de la Madness</option><option>Trabajadora que recoge basura</option></select><label class="form-label">Tipo</label><select id="forumType" class="form-select mb-2"><option>Opinión</option><option>Sugerencia</option><option>Estrategia</option><option>Nueva carta</option><option>Añadir lugar</option><option>Error encontrado</option></select><label class="form-label">Comentario</label><textarea id="forumComment" class="form-control mb-3" rows="5" placeholder="Escribe tu idea..."></textarea><button class="btn-yp btn-yellow w-100" onclick="addComment()">Publicar</button><button class="btn-yp btn-outline-yp w-100 mt-3" onclick="clearComments()">Borrar demo</button><div class="footer-social"><img class="mini-shape" src="recursos/recursos-formas (16).png"><img class="mini-shape" src="recursos/recursos-formas (45).png"></div></aside>
+  <section class="scroll-reveal delay-1"><div class="card-yp mb-3"><h3>Ideas de la comunidad</h3><p>Filtra opiniones, estrategias, sugerencias y nuevas cartas para mejorar el juego físico.</p><input id="forumSearch" class="form-control" placeholder="Buscar comentario..."><div class="filter-bar" id="forumFilters"></div></div><div id="commentsGrid" class="comments-grid"></div></section>
+</div></section></main><footer class="site-footer footer-boost">
+  <div class="footer-wave" aria-hidden="true"></div>
+  <div class="shell footer-grid">
+    <div class="footer-brand-block">
+      <img class="footer-logo" src="recursos/logo-blanco.png" alt="Logo Ya Pues blanco">
+      <div class="footer-title">Debate, convence y gana canastones</div>
+      <p>App de apoyo para el juego de mesa físico. Controla el tiempo del debate, sortea el orden de argumentos y mantiene viva la identidad cochabambina.</p>
+      <a class="btn-yp btn-yellow btn-small" href="simulador.html">Abrir temporizador</a>
+    </div>
+    <div>
+      <div class="footer-title">Explora</div>
+      <a class="footer-link" href="index.html">Inicio</a>
+      <a class="footer-link" href="como-se-juega.html">Cómo se juega</a>
+      <a class="footer-link" href="simulador.html">Temporizador</a>
+      <a class="footer-link" href="merchandising.html">Merchandising</a>
+      <a class="footer-link" href="foro.html">Foro de jugadores</a>
+    </div>
+    <div>
+      <div class="footer-title">Universo Ya Pues</div>
+      <p>Fondo crema, azul principal, ondas orgánicas, flat design y productos gráficos inspirados en Cochabamba.</p>
+      <div class="footer-social">
+        <img class="mini-shape" src="recursos/recursos-formas (11).png" alt="Forma celeste">
+        <img class="mini-shape" src="recursos/recursos-formas (24).png" alt="Forma naranja">
+        <img class="mini-shape" src="recursos/recursos-formas (12).png" alt="Forma morada">
+      </div>
+    </div>
+  </div>
+  <div class="footer-marquee" aria-hidden="true"><span>¡YA PUES! • TURISMO • DEBATE • COCHABAMBA • COMIDAS • LUGARES • </span></div>
+</footer><script src="assets/js/ui.js"></script><script src="assets/js/app.js"></script><script src="assets/js/foro.js"></script></body></html>
