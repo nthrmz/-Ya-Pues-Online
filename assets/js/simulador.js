@@ -10,11 +10,11 @@ let state = {
 };
 
 const characters = [
-  { name: 'Cholita', img: 'recursos/personajes (1).png' },
-  { name: 'Carnavalito', img: 'recursos/personajes (2).png' },
-  { name: 'Chico de la Madness', img: 'recursos/personajes (3).png' },
-  { name: 'Trabajadora que recoge basura', img: 'recursos/personajes (4).png' },
-  { name: 'Albañil', img: 'recursos/personajes (5).png' }
+  { name: 'Case Rosita', img: 'recursos/personajes (1).png' },
+  { name: 'Comparsita', img: 'recursos/personajes (2).png' },
+  { name: 'Pedro', img: 'recursos/personajes (3).png' },
+  { name: 'Doña Lucy', img: 'recursos/personajes (4).png' },
+  { name: 'Maestro Lucho', img: 'recursos/personajes (5).png' }
 ];
 
 function save() {

@@ -1,10 +1,10 @@
 const YP_DATA = {
   personajes: [
-    { id: 'cholita', nombre: 'Cholita', color: '#1c9bd1', img: 'recursos/personajes (1).png', desc: 'Representa la identidad popular, la tradición y el orgullo cochabambino.', habilidad: 'Puede iniciar una ronda de desempate cultural.' },
-    { id: 'carnavalito', nombre: 'Carnavalito', color: '#d52320', img: 'recursos/personajes (2).png', desc: 'Aporta alegría, fiesta y energía a cada debate.', habilidad: 'Puede sumar un punto extra si su argumento es el más creativo.' },
-    { id: 'madness', nombre: 'Chico de la Madness', color: '#7d3bb2', img: 'recursos/personajes (3).png', desc: 'Representa la vida urbana, la juventud y las nuevas formas de hablar de la ciudad.', habilidad: 'Puede cambiar una carta de su mano una vez por ronda.' },
-    { id: 'limpieza', nombre: 'Trabajadora que recoge basura', color: '#f06423', img: 'recursos/personajes (4).png', desc: 'Recuerda el cuidado de la ciudad y la responsabilidad comunitaria.', habilidad: 'Puede bloquear una penalización de carta extra.' },
-    { id: 'albanil', nombre: 'Albañil', color: '#0f6b43', img: 'recursos/personajes (5).png', desc: 'Simboliza el trabajo, la construcción y la ciudad que crece.', habilidad: 'Puede avanzar una casilla extra si gana con un argumento práctico.' }
+    { id: 'cholita', nombre: 'Case Rosita', color: '#1c9bd1', img: 'recursos/personajes (1).png', desc: 'Representa la identidad popular, la tradición y el orgullo cochabambino.', habilidad: 'Puede iniciar una ronda de desempate cultural.' },
+    { id: 'carnavalito', nombre: 'Comparsita', color: '#d52320', img: 'recursos/personajes (2).png', desc: 'Aporta alegría, fiesta y energía a cada debate.', habilidad: 'Puede sumar un punto extra si su argumento es el más creativo.' },
+    { id: 'madness', nombre: 'Pedro', color: '#7d3bb2', img: 'recursos/personajes (3).png', desc: 'Representa la vida urbana, la juventud y las nuevas formas de hablar de la ciudad.', habilidad: 'Puede cambiar una carta de su mano una vez por ronda.' },
+    { id: 'limpieza', nombre: 'Doña Lucy', color: '#f06423', img: 'recursos/personajes (4).png', desc: 'Recuerda el cuidado de la ciudad y la responsabilidad comunitaria.', habilidad: 'Puede bloquear una penalización de carta extra.' },
+    { id: 'albanil', nombre: 'Maestro Lucho', color: '#0f6b43', img: 'recursos/personajes (5).png', desc: 'Simboliza el trabajo, la construcción y la ciudad que crece.', habilidad: 'Puede avanzar una casilla extra si gana con un argumento práctico.' }
   ],
   situaciones: [
     { titulo: 'Cita cochala', texto: '¿Dónde llevarías a una cita a comer?', tipo: 'situacion' },
